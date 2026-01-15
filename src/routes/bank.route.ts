@@ -7,7 +7,7 @@ router.get("/", getAllAccounts);
 router.post("/", createNewAccount);
 router.delete("/:accountId", deleteAccount);
 router.put("/accountId", updateAccount);
-router.get("/:username", getAccountByUsername)
+router.get("/user/:username", getAccountByUsername);
 
 
 export default router;
